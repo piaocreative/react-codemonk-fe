@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainForm /> should render and match the snapshot 1`] = `
+<React.Fragment>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Forgot password?
+    </title>
+    <meta
+      content="Forgot password?"
+      name="description"
+    />
+  </HelmetWrapper>
+  <ForwardRef(ContainerMod)
+    className="w-auto p-0"
+  >
+    <ForwardRef(Card)
+      className="p-0 bg-transparent"
+    >
+      <form>
+        <ForwardRef(OnboardingForm)>
+          <ForwardRef(OnboardingForm__OnBoardingFormBody)>
+            <React.Fragment>
+              <ForwardRef(H1)
+                className="mb-3"
+              >
+                <FormattedMessage
+                  defaultMessage="Forgot password?"
+                  id="CodeMonk.components.ForgotPasswordPage.headingForgotPassword"
+                  values={Object {}}
+                />
+              </ForwardRef(H1)>
+              <ForwardRef(P)
+                className="p16 mb-5"
+                opacityVal="0.5"
+              >
+                <FormattedMessage
+                  defaultMessage="Enter your email to get a link to set up a new password"
+                  id="CodeMonk.components.ForgotPasswordPage.textIntro"
+                  values={Object {}}
+                />
+              </ForwardRef(P)>
+            </React.Fragment>
+            <FormGroup
+              tag="div"
+            >
+              <ForwardRef(Label__FormLabel)>
+                <FormattedMessage
+                  defaultMessage="Email"
+                  id="CodeMonk.containers.containerMessage.labelEmailAddress"
+                  values={Object {}}
+                />
+              </ForwardRef(Label__FormLabel)>
+              <ForwardRef
+                component={[Function]}
+                name="email"
+                normalize={[Function]}
+                onChange={[MockFunction]}
+                placeholder="e.g. johndoe@gmail.com"
+                type="text"
+                validate={
+                  Array [
+                    [Function],
+                    [Function],
+                  ]
+                }
+                value=""
+              />
+            </FormGroup>
+            <div
+              className="mt-4"
+            >
+              <Button
+                className="btn-primary  w-100"
+                disabled={false}
+              >
+                <FormattedMessage
+                  defaultMessage="Send me a link"
+                  id="CodeMonk.components.ForgotPasswordPage.buttonResetLink"
+                  values={Object {}}
+                />
+              </Button>
+              <ForwardRef(P)
+                className="p16 mt-5"
+              >
+                <FormattedMessage
+                  defaultMessage="Back to"
+                  id="CodeMonk.components.ForgotPasswordPage.textBackTo"
+                  values={Object {}}
+                />
+                <ForwardRef(A)
+                  className="ms-1 text-decoration-underline"
+                  href="/login"
+                >
+                  <FormattedMessage
+                    defaultMessage="Login"
+                    id="CodeMonk.components.ForgotPasswordPage.loginLink"
+                    values={Object {}}
+                  />
+                </ForwardRef(A)>
+              </ForwardRef(P)>
+            </div>
+          </ForwardRef(OnboardingForm__OnBoardingFormBody)>
+        </ForwardRef(OnboardingForm)>
+      </form>
+    </ForwardRef(Card)>
+  </ForwardRef(ContainerMod)>
+</React.Fragment>
+`;

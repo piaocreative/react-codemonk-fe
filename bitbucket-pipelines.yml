@@ -1,0 +1,284 @@
+definitions:
+  services:
+    mongo:
+      image: mongo
+    docker:
+      memory: 4096
+  steps:
+  - step: &initialize-pipeline
+      name: "Initialize Pipeline"
+      script:
+        - echo "Successfully initailized pipeline!!!"
+  - step: &build-and-package
+      name: Build
+      image: node:14.17
+      size: 2x # Double resources available for this step.
+      script:
+        - touch gtmConfig.js
+        - touch projectConfig.js
+        - echo 'const Constants = {apiUrl:$API_URL}; export default Constants;' > projectConfig.js
+        - echo $API_URL
+        - apt-get update && apt-get install -y curl jq
+        - >
+              export BB_TOKEN=$(curl -s -X POST -u "${CLIENT_ID}:${CLIENT_SECRET}" \
+                https://bitbucket.org/site/oauth2/access_token \
+                -d grant_type=client_credentials -d scopes="repository"| jq --raw-output '.access_token')
+            # Configure git to use the oauth token. This well happen when setting env variable BB_TOKEN
+        - npm install
+        - npm run extract-intl
+        - npx semantic-release -b master
+        - export VERSION=$(jq -r '.version' package.json)
+        - echo $VERSION
+#        - npm run test -- -u
+        - npm run build
+      artifacts:
+          - build/**
+          - coverage/**
+          - /**
+  - step: &deploy
+      name: Deploy & Invalidate Dev
+      image: atlassian/pipelines-awscli
+      deployment: development
+      script:
+      - aws configure set default.region eu-west-1
+      - aws configure set default.s3.max_concurrent_requests 200
+      - aws configure set profile.default.aws_access_key_id $AWS_ACCESS_KEY_ID
+      - aws configure set profile.default.aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+      - aws s3 sync build s3://$DEV_BUCKET_NAME --region=eu-west-1 --delete --acl public-read --exclude "projectConfig.js" --exclude "gtmConfig.js" --exclude ".git*" --exclude "bitbucket-pipelines.yml" --exclude "README.md" --exclude "documents/*"
+      - aws cloudfront create-invalidation --distribution-id $DEV_DISTRIBUTION_ID --paths "/*"
+
+  - step: &build-and-package-stage
+      name: Build
+      image: node:14.17
+      size: 2x
+      services:
+        - docker
+      script:
+        - touch gtmConfig.js
+        - touch projectConfig.js
+        - echo 'const Constants = {apiUrl:$API_URL}; export default Constants;' > projectConfig.js
+        - echo $API_URL
+        - apt-get update && apt-get install -y curl jq
+        - >
+              export BB_TOKEN=$(curl -s -X POST -u "${CLIENT_ID}:${CLIENT_SECRET}" \
+                https://bitbucket.org/site/oauth2/access_token \
+                -d grant_type=client_credentials -d scopes="repository"| jq --raw-output '.access_token')
+            # Configure git to use the oauth token. This well happen when setting env variable BB_TOKEN
+        - npm install
+        - npm run extract-intl
+        - npx semantic-release -b master
+        - export VERSION=$(jq -r '.version' package.json)
+        - echo $VERSION
+  #        - npm run test -- -u
+        - npm run build
+      artifacts:
+          - build/**
+          - coverage/**
+          - /**
+
+  - step: &deploy-stage
+      name: Deploy & Invalidate Staging
+      image: atlassian/pipelines-awscli
+      deployment: staging
+      script:
+      - aws configure set default.region eu-west-1
+      - aws configure set default.s3.max_concurrent_requests 200
+      - aws configure set profile.default.aws_access_key_id $AWS_ACCESS_KEY_ID
+      - aws configure set profile.default.aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+      - aws s3 sync build s3://$STAGE_BUCKET_NAME --region=eu-west-1 --delete --acl public-read --exclude "projectConfig.js" --exclude "gtmConfig.js" --exclude ".git*" --exclude "bitbucket-pipelines.yml" --exclude "README.md" --exclude "documents/*"
+      - aws cloudfront create-invalidation --distribution-id $STAGE_DISTRIBUTION_ID --paths "/*"
+      
+  
+    
+pipelines:
+  branches:
+   master:
+   - step:
+      name: Build
+      size: 2x # Double resources available for this step.
+      image: node:14.17
+      script:
+        - touch gtmConfig.js
+        - touch projectConfig.js
+        - echo 'const Constants = {apiUrl:$API_URL}; export default Constants;' > projectConfig.js
+        - echo $API_URL
+        - apt-get update && apt-get install -y curl jq
+        - >
+              export BB_TOKEN=$(curl -s -X POST -u "${CLIENT_ID}:${CLIENT_SECRET}" \
+                https://bitbucket.org/site/oauth2/access_token \
+                -d grant_type=client_credentials -d scopes="repository"| jq --raw-output '.access_token')
+            # Configure git to use the oauth token. This well happen when setting env variable BB_TOKEN
+        - npm install
+        - npm run extract-intl
+        - npx semantic-release -b master
+        - export VERSION=$(jq -r '.version' package.json)
+        - echo $VERSION
+#        - npm run test -- -u
+        - npm run build
+      artifacts:
+          - build/**
+          - coverage/**
+          - /**
+#   - step:
+#          name: Running sonar scanner
+#          image: atlassian/default-image:2
+#          script:
+#              - curl ifconfig.co
+#              - wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-3.2.0.1227-linux.zip
+#              - unzip sonar-scanner-cli-3.2.0.1227-linux.zip
+          #   - sed -i s/%SONAR_TOKEN%/$SONAR_TOKEN/g sonar-scanner.properties
+          #   - cat sonar-project.properties
+          #   - ls -ltr
+          #   - cp sonar-project.properties sonar-scanner-3.2.0.1227-linux/conf/sonar-project.properties
+#              - ./sonar-scanner-3.2.0.1227-linux/bin/sonar-scanner -Dsonar.host.url=$SONAR_HOST -Dsonar.projectVersion=$BITBUCKET_BRANCH -Dsonar.login=$SONAR_TOKEN -Dsonar.projectName=$PROJECT_NAME -Dsonar.projectKey=$PROJECT_KEY -Dsonar.sources=app/ -Dsonar.exclusions=app/**/*.test.js,app/i18n.js,app/*/RbGenerated*/*.js,app/app.js,app/global-styles.js,app/**/*/*-style.js,app/**/*/*-styles.js,app/**/*/Loadable.js,app/**/*/*saga.js,app/utils/**,app/themes/**,app/components/Selects/**,app/components/confirmBox/**,app/components/ShowMore/**, -Dsonar.javascript.file.suffixes=.js,.jsx -Dsonar.language=js -Dsonar.eslint.eslintpath=node_modules/eslint/bin/eslint.js -Dsonar.eslint.eslintconfigpath=package.json -Dsonar.eslint.eslintrulesdir=node_modules -Dsonar.eslint.reportPaths=report.json -Dsonar.sourceEncoding=UTF-8 -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
+
+   - step:
+        name: Deploy & Invalidate Dev
+        image: atlassian/pipelines-awscli
+        deployment: development
+        script:
+        - aws configure set default.region eu-west-1
+        - aws configure set default.s3.max_concurrent_requests 200
+        - aws configure set profile.default.aws_access_key_id $AWS_ACCESS_KEY_ID
+        - aws configure set profile.default.aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+        - aws s3 sync build s3://$DEV_BUCKET_NAME --region=eu-west-1 --delete --acl public-read --exclude "projectConfig.js" --exclude "gtmConfig.js" --exclude ".git*" --exclude "bitbucket-pipelines.yml" --exclude "README.md" --exclude "documents/*"
+        - aws cloudfront create-invalidation --distribution-id $DEV_DISTRIBUTION_ID --paths "/*"
+        
+        
+   production:
+           - step:
+              name: Build
+              size: 2x # Double resources available for this step.
+              image: node:14.17
+              script: 
+                - touch gtmConfig.js
+                - touch projectConfig.js
+                - echo 'const Constants = {apiUrl:$API_URL}; export default Constants;' > projectConfig.js
+                - apt-get update && apt-get install -y curl jq
+                - >
+                      export BB_TOKEN=$(curl -s -X POST -u "${CLIENT_ID}:${CLIENT_SECRET}" \
+                        https://bitbucket.org/site/oauth2/access_token \
+                        -d grant_type=client_credentials -d scopes="repository"| jq --raw-output '.access_token')
+                    # Configure git to use the oauth token. This well happen when setting env variable BB_TOKEN
+                - npm install
+                - npm run extract-intl
+                - npx semantic-release -b master
+                - export VERSION=$(jq -r '.version' package.json)
+                - echo $VERSION
+               #- npm run test
+                - npm run build
+              artifacts:
+                  - build/**
+                  - coverage/**
+                  - /**
+           
+           - step:
+                   name: Deploy & Invalidate Production
+                   image: atlassian/pipelines-awscli
+                   deployment: production
+                   script:
+                   - aws configure set default.region eu-west-1
+                   - aws configure set default.s3.max_concurrent_requests 200
+                   - aws configure set profile.default.aws_access_key_id $PROD_AWS_ACCESS_KEY_ID
+                   - aws configure set profile.default.aws_secret_access_key $PROD_AWS_SECRET_ACCESS_KEY
+                   - aws s3 sync build s3://$PROD_BUCKET_NAME --region=eu-west-1 --delete --acl public-read --exclude "projectConfig.js" --exclude "gtmConfig.js" --exclude ".git*" --exclude "bitbucket-pipelines.yml" --exclude "README.md" --exclude "documents/*"
+                   - aws cloudfront create-invalidation --distribution-id $PROD_DISTRIBUTION_ID --paths "/*"
+
+   bugfix/*:
+       - step: *initialize-pipeline
+       - step: 
+          <<: *build-and-package
+          name: Build and package
+          trigger: manual
+       - step: 
+          <<: *deploy
+          name: "dev ec2 deploy"
+          deployment: development
+
+   feature/*:
+       - step: *initialize-pipeline
+       - step: 
+          <<: *build-and-package
+          name: Build and package
+          trigger: manual
+       - step: 
+          <<: *deploy
+          name: "dev ec2 deploy"
+          deployment: development
+  
+   staging:
+    - step:
+        name: Build
+        image: node:14.17
+        size: 2x
+        services:
+          - docker
+        script:
+          - touch gtmConfig.js
+          - touch projectConfig.js
+          - echo 'const Constants = {apiUrl:$API_URL}; export default Constants;' > projectConfig.js
+          - echo $API_URL
+          - apt-get update && apt-get install -y curl jq
+          - >
+                export BB_TOKEN=$(curl -s -X POST -u "${CLIENT_ID}:${CLIENT_SECRET}" \
+                  https://bitbucket.org/site/oauth2/access_token \
+                  -d grant_type=client_credentials -d scopes="repository"| jq --raw-output '.access_token')
+              # Configure git to use the oauth token. This well happen when setting env variable BB_TOKEN
+          - npm install
+          - npm run extract-intl
+          - npx semantic-release -b master
+          - export VERSION=$(jq -r '.version' package.json)
+          - echo $VERSION
+    #        - npm run test -- -u
+          - npm run build
+        artifacts:
+            - build/**
+            - coverage/**
+            - /**
+    #   - step:
+    #          name: Running sonar scanner
+    #          image: atlassian/default-image:2
+    #          script:
+    #              - curl ifconfig.co
+    #              - wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-3.2.0.1227-linux.zip
+    #              - unzip sonar-scanner-cli-3.2.0.1227-linux.zip
+            #   - sed -i s/%SONAR_TOKEN%/$SONAR_TOKEN/g sonar-scanner.properties
+            #   - cat sonar-project.properties
+            #   - ls -ltr
+            #   - cp sonar-project.properties sonar-scanner-3.2.0.1227-linux/conf/sonar-project.properties
+    #              - ./sonar-scanner-3.2.0.1227-linux/bin/sonar-scanner -Dsonar.host.url=$SONAR_HOST -Dsonar.projectVersion=$BITBUCKET_BRANCH -Dsonar.login=$SONAR_TOKEN -Dsonar.projectName=$PROJECT_NAME -Dsonar.projectKey=$PROJECT_KEY -Dsonar.sources=app/ -Dsonar.exclusions=app/**/*.test.js,app/i18n.js,app/*/RbGenerated*/*.js,app/app.js,app/global-styles.js,app/**/*/*-style.js,app/**/*/*-styles.js,app/**/*/Loadable.js,app/**/*/*saga.js,app/utils/**,app/themes/**,app/components/Selects/**,app/components/confirmBox/**,app/components/ShowMore/**, -Dsonar.javascript.file.suffixes=.js,.jsx -Dsonar.language=js -Dsonar.eslint.eslintpath=node_modules/eslint/bin/eslint.js -Dsonar.eslint.eslintconfigpath=package.json -Dsonar.eslint.eslintrulesdir=node_modules -Dsonar.eslint.reportPaths=report.json -Dsonar.sourceEncoding=UTF-8 -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
+
+    - step:
+        name: Deploy & Invalidate Staging
+        image: atlassian/pipelines-awscli
+        deployment: staging
+        script:
+        - aws configure set default.region eu-west-1
+        - aws configure set default.s3.max_concurrent_requests 200
+        - aws configure set profile.default.aws_access_key_id $AWS_ACCESS_KEY_ID
+        - aws configure set profile.default.aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+        - aws s3 sync build s3://$STAGE_BUCKET_NAME --region=eu-west-1 --delete --acl public-read --exclude "projectConfig.js" --exclude "gtmConfig.js" --exclude ".git*" --exclude "bitbucket-pipelines.yml" --exclude "README.md" --exclude "documents/*"
+        - aws cloudfront create-invalidation --distribution-id $STAGE_DISTRIBUTION_ID --paths "/*"
+
+   release/*:
+       - step: 
+          <<: *build-and-package-stage
+          name: Build and package
+       - step: 
+          <<: *deploy-stage
+          name: "staging ec2 deploy"
+          deployment: staging
+    
+   hotfix/*:
+       - step: *initialize-pipeline
+       - step: 
+          <<: *build-and-package-stage
+          name: Build and package
+          trigger: manual
+       - step: 
+          <<: *deploy-stage
+          name: "staging ec2 deploy"
+          deployment: staging
+        
+   
+                  

@@ -1,0 +1,250 @@
+[
+  { "value": ".NET", "label": ".NET" },
+  { "value": "Adobe Illustrator", "label": "Adobe Illustrator" },
+  { "value": "Amazon Kinesis", "label": "Amazon Kinesis" },
+  { "value": "Amazon Redshift", "label": "Amazon Redshift" },
+  { "value": "Android", "label": "Android" },
+  { "value": "Angular", "label": "Angular" },
+  { "value": "Animation", "label": "Animation" },
+  { "value": "Apache Kafka", "label": "Apache Kafka" },
+  { "value": "Apache Spark", "label": "Apache Spark" },
+  {
+    "value": "API Integrations- Dwolla",
+
+    "label": "API Integrations- Dwolla"
+  },
+  {
+    "value": "API Integrations- Google Maps",
+
+    "label": "API Integrations- Google Maps"
+  },
+  {
+    "value": "API Integrations- Layer",
+
+    "label": "API Integrations- Layer"
+  },
+  {
+    "value": "API Integrations- Mixpanel",
+
+    "label": "API Integrations- Mixpanel"
+  },
+  {
+    "value": "API Integrations- Segment.io",
+
+    "label": "API Integrations- Segment.io"
+  },
+  {
+    "value": "API Integrations- Facebook",
+
+    "label": "API Integrations- Facebook"
+  },
+  {
+    "value": "API Integrations- Stripe",
+
+    "label": "API Integrations- Stripe"
+  },
+  {
+    "value": "API Integrations- Twilio",
+
+    "label": "API Integrations- Twilio"
+  },
+  {
+    "value": "API Integrations- Voice Integrations (LEX)",
+
+    "label": "API Integrations- Voice Integrations (LEX)"
+  },
+  {
+    "value": "API Integrations- Branch.io",
+
+    "label": "API Integrations- Branch.io"
+  },
+  {
+    "value": "API Integrations- Paypal",
+
+    "label": "API Integrations- Paypal"
+  },
+  {
+    "value": "API Integrations- GBG",
+
+    "label": "API Integrations- GBG"
+  },
+  {
+    "value": "API Integrations- Equifax",
+
+    "label": "API Integrations- Equifax"
+  },
+  {
+    "value": "API Integrations- Onfido",
+
+    "label": "API Integrations- Onfido"
+  },
+  { "value": "AR/VR", "label": "AR/VR" },
+  { "value": "AWS", "label": "AWS" },
+  { "value": "AWS Lambda", "label": "AWS Lambda" },
+  { "value": "Azure", "label": "Azure" },
+  { "value": "Backbone", "label": "Backbone" },
+  { "value": "Brand Design", "label": "Brand Design" },
+  { "value": "Budget Management", "label": "Budget Management" },
+  { "value": "C", "label": "C" },
+  { "value": "C#", "label": "C#" },
+  { "value": "C++", "label": "C++" },
+  { "value": "Change Management", "label": "Change Management" },
+  { "value": "Chrome Extension", "label": "Chrome Extension" },
+  { "value": "Firefox Extension", "label": "Firefox Extension" },
+  { "value": "Clojure", "label": "Clojure" },
+  { "value": "Code Review", "label": "Code Review" },
+  { "value": "Computer Vision", "label": "Computer Vision" },
+  { "value": "Copywriting", "label": "Copywriting" },
+  { "value": "CSS", "label": "CSS" },
+  { "value": "Data Science", "label": "Data Science" },
+  { "value": "DevOps", "label": "DevOps" },
+  { "value": "Django", "label": "Django" },
+  { "value": "Docker", "label": "Docker" },
+  { "value": "Drupal", "label": "Drupal" },
+  { "value": "Elixir", "label": "Elixir" },
+  { "value": "Ember", "label": "Ember" },
+  { "value": "Erlang", "label": "Erlang" },
+  { "value": "Express", "label": "Express" },
+  { "value": "Firebase", "label": "Firebase" },
+  { "value": "Flutter", "label": "Flutter" },
+  { "value": "Go", "label": "Go" },
+  {
+    "value": "Google Cloud Platform",
+
+    "label": "Google Cloud Platform"
+  },
+  { "value": "GraphQL", "label": "GraphQL" },
+  { "value": "Hadoop", "label": "Hadoop" },
+  { "value": "Haskell", "label": "Haskell" },
+  { "value": "HTML", "label": "HTML" },
+  { "value": "Ideation", "label": "Ideation" },
+  { "value": "Illustrations", "label": "Illustrations" },
+  {
+    "value": "Information Architecture",
+
+    "label": "Information Architecture"
+  },
+  { "value": "Interaction design", "label": "Interaction design" },
+  { "value": "Ionic", "label": "Ionic" },
+  { "value": "iOS", "label": "iOS" },
+  { "value": "ISO", "label": "ISO" },
+  { "value": "Java", "label": "Java" },
+  { "value": "Javascript", "label": "Javascript" },
+  { "value": "Kly", "label": "Kly" },
+  { "value": "Kotlin", "label": "Kotlin" },
+  { "value": "Kubernetes", "label": "Kubernetes" },
+  { "value": "Layer", "label": "Layer" },
+  {
+    "value": "Logo and Icon design",
+
+    "label": "Logo and Icon design"
+  },
+  { "value": "Loopback", "label": "Loopback" },
+  { "value": "Machine Learning", "label": "Machine Learning" },
+  { "value": "Marketing Design", "label": "Marketing Design" },
+  { "value": "Meteor", "label": "Meteor" },
+  { "value": "Mobile design", "label": "Mobile design" },
+  { "value": "MongoDB", "label": "MongoDB" },
+  { "value": "Motion design", "label": "Motion design" },
+  { "value": "MySQL", "label": "MySQL" },
+  {
+    "value": "Natural Language Processing",
+
+    "label": "Natural Language Processing"
+  },
+  { "value": "NextJS", "label": "NextJS" },
+  { "value": "Node", "label": "Node" },
+  { "value": "NoSQL", "label": "NoSQL" },
+  { "value": "Objective-C", "label": "Objective-C" },
+  { "value": "OWASP", "label": "OWASP" },
+  { "value": "PCI", "label": "PCI" },
+  { "value": "Pentest", "label": "Pentest" },
+  { "value": "Perl", "label": "Perl" },
+  { "value": "Phonegap", "label": "Phonegap" },
+  { "value": "PHP", "label": "PHP" },
+  { "value": "Postgres", "label": "Postgres" },
+  {
+    "value": "Product Architecture",
+
+    "label": "Product Architecture"
+  },
+  { "value": "Product Launch", "label": "Product Launch" },
+  { "value": "Product Management", "label": "Product Management" },
+  { "value": "Program Management", "label": "Program Management" },
+  { "value": "Project Management", "label": "Project Management" },
+  { "value": "Python", "label": "Python" },
+  { "value": "Quality Analyst", "label": "Quality Analyst" },
+  { "value": "R", "label": "R" },
+  { "value": "Rails", "label": "Rails" },
+  { "value": "React", "label": "React" },
+  { "value": "Test Automation", "label": "Test Automation" },
+  { "value": "React Native", "label": "React Native" },
+  { "value": "Redux", "label": "Redux" },
+  { "value": "Release Management", "label": "Release Management" },
+  { "value": "RethinkDB", "label": "RethinkDB" },
+  { "value": "Roadmap Definition", "label": "Roadmap Definition" },
+  { "value": "Ruby", "label": "Ruby" },
+  { "value": "Scala", "label": "Scala" },
+  { "value": "Scikit-Learn", "label": "Scikit-Learn" },
+  { "value": "Scoping", "label": "Scoping" },
+  { "value": "Security", "label": "Security" },
+  { "value": "Shopify", "label": "Shopify" },
+  { "value": "Sketch", "label": "Sketch" },
+  { "value": "Socket.io", "label": "Socket.io" },
+  { "value": "SOCs", "label": "SOCs" },
+  { "value": "Spring", "label": "Spring" },
+  { "value": "SQL", "label": "SQL" },
+  { "value": "Swift", "label": "Swift" },
+  { "value": "Team Management", "label": "Team Management" },
+  {
+    "value": "Technical Architecture",
+
+    "label": "Technical Architecture"
+  },
+  { "value": "Training", "label": "Training" },
+  { "value": "Typescript", "label": "Typescript" },
+  { "value": "Typography", "label": "Typography" },
+  { "value": "UI", "label": "UI" },
+  { "value": "Usability testing", "label": "Usability testing" },
+  { "value": "User Research", "label": "User Research" },
+  { "value": "UX", "label": "UX" },
+  { "value": "Visual Design", "label": "Visual Design" },
+  {
+    "value": "Vulnerability Scanning",
+
+    "label": "Vulnerability Scanning"
+  },
+  { "value": "Web design", "label": "Web design" },
+  { "value": "Webpack", "label": "Webpack" },
+  { "value": "Wordpress", "label": "Wordpress" },
+  { "value": "Xamarin", "label": "Xamarin" },
+  { "value": "Jira", "label": "Jira" },
+  { "value": "Terraform", "label": "Terraform" },
+  { "value": "OPA", "label": "OPA" },
+  { "value": "Stackdriver", "label": "Stackdriver" },
+  { "value": "Splunk", "label": "Splunk" },
+  { "value": "Jenkins", "label": "Jenkins" },
+  { "value": "SAP Hybris", "label": "SAP Hybris" },
+  { "value": "MuleSoft", "label": "MuleSoft" },
+  { "value": "CRM development", "label": "CRM development" },
+  { "value": "ESB", "label": "ESB" },
+  {
+    "value": "Microsoft Dynamics 365",
+
+    "label": "Microsoft Dynamics 365"
+  },
+  { "value": "Workday", "label": "Workday" },
+  { "value": "Oracle", "label": "Oracle" },
+  { "value": "Oracle Netsuite", "label": "Oracle Netsuite" },
+  { "value": "SAP S/4HANA", "label": "SAP S/4HANA" },
+  { "value": "Nexidia", "label": "Nexidia" },
+  { "value": "Calabrio", "label": "Calabrio" },
+  { "value": "Callminer", "label": "Callminer" },
+  { "value": "Aspect", "label": "Aspect" },
+  {
+    "value": "Robotic Process Automation",
+
+    "label": "Robotic Process Automation"
+  },
+  { "value": "UIPath", "label": "UIPath" }
+]

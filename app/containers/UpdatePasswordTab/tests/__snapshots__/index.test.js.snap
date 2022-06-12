@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainForm /> should render and match the snapshot 1`] = `
+<React.Fragment>
+  <ForwardRef(H4)
+    className="newH4 mt-4 mb-3"
+    opacityVal="0.5"
+  >
+    <FormattedMessage
+      defaultMessage="Change your password"
+      id="CodeMonk.containers.containerMessage.changePassword"
+      values={Object {}}
+    />
+  </ForwardRef(H4)>
+  <form>
+    <Row
+      tag="div"
+    >
+      <Col
+        className="col-md-6"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <FormGroup
+          tag="div"
+        >
+          <ForwardRef(Label__FormLabel)>
+            <FormattedMessage
+              defaultMessage="Current Password"
+              id="CodeMonk.containers.containerMessage.labelOldPassword"
+              values={Object {}}
+            />
+          </ForwardRef(Label__FormLabel)>
+          <ForwardRef
+            component={[Function]}
+            disabled={false}
+            name="oldPassword"
+            normalize={[Function]}
+            onChange={[MockFunction]}
+            onClick={[Function]}
+            placeholder="Enter current password"
+            type="password"
+            validate={
+              Array [
+                [Function],
+              ]
+            }
+            value=""
+          />
+        </FormGroup>
+        <FormGroup
+          tag="div"
+        >
+          <ForwardRef(Label__FormLabel)>
+            <FormattedMessage
+              defaultMessage="New Password"
+              id="CodeMonk.components.ResetPasswordPage.labelNewPassword"
+              values={Object {}}
+            />
+          </ForwardRef(Label__FormLabel)>
+          <ForwardRef(signup-styles__PasswordFieldWrapper)>
+            <div
+              className="w-100"
+            >
+              <ForwardRef
+                component={[Function]}
+                disabled={false}
+                errorMessageToShow={true}
+                id="tooltipPassword"
+                name="password"
+                normalize={[Function]}
+                onBlur={[Function]}
+                onChange={[MockFunction]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                placeholder="Enter new password"
+                type="password"
+                validate={
+                  Array [
+                    [Function],
+                    [Function],
+                  ]
+                }
+                value=""
+              />
+            </div>
+            <div
+              className="tooltip-wrapper"
+            >
+              <span
+                id="tooltipPassword"
+              />
+              <Tooltip
+                autohide={true}
+                className="d-none d-md-block"
+                delay={
+                  Object {
+                    "hide": 250,
+                    "show": 0,
+                  }
+                }
+                hideArrow={false}
+                isOpen={false}
+                placement="right"
+                placementPrefix="bs-tooltip"
+                target="tooltipPassword"
+                toggle={[Function]}
+              >
+                <ForwardRef(signup-styles__ToolTipUlWrapper)>
+                  <ul>
+                    <li
+                      className=""
+                    >
+                      <span>
+                        <FormattedMessage
+                          defaultMessage="Lower case letters (a-z)"
+                          id="CodeMonk.containers.containerMessage.lowerCase"
+                          values={Object {}}
+                        />
+                      </span>
+                    </li>
+                    <li
+                      className=""
+                    >
+                      <span>
+                        <FormattedMessage
+                          defaultMessage="Upper case letters (A-Z)"
+                          id="CodeMonk.containers.containerMessage.upperCase"
+                          values={Object {}}
+                        />
+                      </span>
+                    </li>
+                    <li
+                      className=""
+                    >
+                      <span>
+                        <FormattedMessage
+                          defaultMessage="Numbers (i.e 0-9)"
+                          id="CodeMonk.containers.containerMessage.numbersInString"
+                          values={Object {}}
+                        />
+                      </span>
+                    </li>
+                    <li
+                      className=""
+                    >
+                      <span>
+                        <FormattedMessage
+                          defaultMessage="Special Characters (i.e ^£$%&*@)"
+                          id="CodeMonk.containers.containerMessage.specialCharacter"
+                          values={Object {}}
+                        />
+                      </span>
+                    </li>
+                    <li
+                      className=""
+                    >
+                      <span>
+                        <FormattedMessage
+                          defaultMessage="Min 8 Characters long"
+                          id="CodeMonk.containers.containerMessage.stringLength"
+                          values={Object {}}
+                        />
+                      </span>
+                    </li>
+                  </ul>
+                </ForwardRef(signup-styles__ToolTipUlWrapper)>
+              </Tooltip>
+            </div>
+          </ForwardRef(signup-styles__PasswordFieldWrapper)>
+        </FormGroup>
+        <FormGroup
+          tag="div"
+        >
+          <ForwardRef(Label__FormLabel)>
+            <FormattedMessage
+              defaultMessage="Confirm Password"
+              id="CodeMonk.components.ResetPasswordPage.labelConfirmPassword"
+              values={Object {}}
+            />
+          </ForwardRef(Label__FormLabel)>
+          <ForwardRef
+            component={[Function]}
+            disabled={false}
+            name="confirmPassword"
+            normalize={[Function]}
+            onChange={[Function]}
+            onClick={[Function]}
+            placeholder="Repeat new password"
+            type="password"
+            validate={
+              Array [
+                [Function],
+                [Function],
+              ]
+            }
+            value=""
+          />
+        </FormGroup>
+      </Col>
+    </Row>
+    <Button
+      className="mt-3 btn-primary btn-submit"
+      disabled={false}
+    >
+      <FormattedMessage
+        defaultMessage="Change password"
+        id="CodeMonk.components.ResetPasswordPage.changePassword"
+        values={Object {}}
+      />
+    </Button>
+  </form>
+</React.Fragment>
+`;

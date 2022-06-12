@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Truncate /> should match the snapshot 1`] = `
+<span
+  width={0}
+>
+  <span />
+  <span>
+    
+  </span>
+  <span
+    style={
+      Object {
+        "left": 0,
+        "position": "fixed",
+        "top": 0,
+        "visibility": "hidden",
+      }
+    }
+  >
+    …
+  </span>
+</span>
+`;

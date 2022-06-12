@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainForm /> should render and match the snapshot 1`] = `
+<ForwardRef(payment-styles__PaymentPageWrapper)>
+  <ForwardRef(FormWrapper)>
+    <form
+      onSubmit={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              [Function],
+            ],
+            Array [
+              [Function],
+            ],
+            Array [
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <ForwardRef(H4)
+        className="newH4 mt-4"
+        opacityVal="0.5"
+      >
+        <FormattedMessage
+          defaultMessage="Payout via"
+          id="CodeMonk.components.PaymentAndBilling.labelPayment"
+          values={Object {}}
+        />
+      </ForwardRef(H4)>
+      <FormGroup
+        tag="div"
+      >
+        <ForwardRef
+          component={[Function]}
+          data={
+            Array [
+              Object {
+                "Component": <BankAccountDetails
+                  bankPayDetails={Object {}}
+                  editFlag={true}
+                  handleChangeBankPayDetails={[Function]}
+                />,
+                "className": "mb-3",
+                "condition": false,
+                "label": "Bank Account",
+                "value": "bank",
+              },
+              Object {
+                "Component": <PayPalDetails
+                  editFlag={true}
+                  handleChangePayPalDetails={[Function]}
+                  payPalEmail=""
+                />,
+                "className": "mb-3",
+                "condition": false,
+                "label": "Paypal",
+                "value": "paypal",
+              },
+            ]
+          }
+          editFlag={false}
+          groupName="payment"
+          name="payType"
+          onChangeRadio={[Function]}
+          selectedRadio=""
+          validate={
+            Array [
+              [Function],
+            ]
+          }
+        />
+      </FormGroup>
+      <Row
+        tag="div"
+      >
+        <Col
+          md={6}
+          sm={12}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <ForwardRef(H4)
+            className="newH4 mb-3  mt-5"
+            opacityVal="0.5"
+          >
+            <FormattedMessage
+              defaultMessage="Confirm changes"
+              id="CodeMonk.containers.containerMessage.confirmChanges"
+              values={Object {}}
+            />
+          </ForwardRef(H4)>
+          <ForwardRef(P)
+            className="p16 mb-3"
+            opacityVal="0.5"
+          >
+            <FormattedMessage
+              defaultMessage="Please enter your password to confirm these changes"
+              id="CodeMonk.containers.containerMessage.passwordDescription"
+              values={Object {}}
+            />
+          </ForwardRef(P)>
+          <FormGroup
+            tag="div"
+          >
+            <ForwardRef(Label__FormLabel)>
+              <FormattedMessage
+                defaultMessage="Password"
+                id="CodeMonk.containers.containerMessage.tabPassword"
+                values={Object {}}
+              />
+            </ForwardRef(Label__FormLabel)>
+            <ForwardRef
+              component={[Function]}
+              name="password"
+              normalize={[Function]}
+              onClick={[Function]}
+              placeholder="Enter your password"
+              type="password"
+              validate={
+                Array [
+                  [Function],
+                ]
+              }
+            />
+          </FormGroup>
+        </Col>
+      </Row>
+      <div
+        className="d-flex align-items-center flex-wrap justify-content-between justify-content-md-start mt-5"
+      >
+        <Button
+          className=" btn-primary me-0 mt-0 mr-3"
+          disabled={false}
+        >
+          <FormattedMessage
+            defaultMessage="Update"
+            id="CodeMonk.containers.containerMessage.btnUpdate"
+            values={Object {}}
+          />
+        </Button>
+        <ForwardRef(LinkButtonMod__ButtonMod)
+          className="me-3 ms-md-3"
+          color="link"
+          onClick={[Function]}
+        >
+          <FormattedMessage
+            defaultMessage="Cancel"
+            id="CodeMonk.containers.containerMessage.btnCancel"
+            values={Object {}}
+          />
+        </ForwardRef(LinkButtonMod__ButtonMod)>
+      </div>
+    </form>
+  </ForwardRef(FormWrapper)>
+</ForwardRef(payment-styles__PaymentPageWrapper)>
+`;

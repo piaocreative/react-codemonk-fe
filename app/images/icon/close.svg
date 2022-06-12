@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon/close</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.84481448,0.155185524 C10.0120468,0.322417846 10.0120468,0.593555012 9.84481448,0.760787334 L5.605,5 L9.84481448,9.23921267 C10.0120468,9.40644499 10.0120468,9.67758215 9.84481448,9.84481448 C9.67758215,10.0120468 9.40644499,10.0120468 9.23921267,9.84481448 L5,5.605 L0.760787334,9.84481448 C0.593555012,10.0120468 0.322417846,10.0120468 0.155185524,9.84481448 C-0.0120467975,9.67758215 -0.0120467975,9.40644499 0.155185524,9.23921267 L4.395,5 L0.155185524,0.760787334 C-0.0120467975,0.593555012 -0.0120467975,0.322417846 0.155185524,0.155185524 C0.322417846,-0.0120467975 0.593555012,-0.0120467975 0.760787334,0.155185524 L5,4.395 L9.23921267,0.155185524 C9.40644499,-0.0120467975 9.67758215,-0.0120467975 9.84481448,0.155185524 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="skill_tag" transform="translate(-97.000000, -15.000000)">
+            <g id="icon/close" transform="translate(97.000000, 15.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

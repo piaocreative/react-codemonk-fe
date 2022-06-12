@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardComponent /> should render and match the snapshot 1`] = `
+<React.Fragment>
+  <ForwardRef(styles__TalentCard)
+    className="card-sm flex-1 d-flex flex-column"
+    to="/admin/talent-profile/5f06b376f0d53c00085ca567"
+    type="cardComponent"
+  >
+    <div
+      className="d-flex flex-0 justify-content-between align-items-center"
+    >
+      <ForwardRef(styles__UserProfile)>
+        <ForwardRef(styles__UserProfileImg)>
+          <img
+            alt="user profile"
+            onError={[Function]}
+            src=""
+          />
+        </ForwardRef(styles__UserProfileImg)>
+      </ForwardRef(styles__UserProfile)>
+      
+    </div>
+    <div
+      className="d-flex flex-0 mt-3"
+    >
+      <div
+        className="d-flex justify-content-between w-100 flex-column"
+      >
+        <ForwardRef(H3)>
+           
+        </ForwardRef(H3)>
+        <ForwardRef(P)
+          className="p14 mb-0"
+          opacityVal="0.5"
+        >
+          , 
+           | 
+           (
+          )
+        </ForwardRef(P)>
+      </div>
+    </div>
+    <hr />
+    <div
+      className="flex-0"
+    >
+      <ForwardRef(P)
+        className="p14 mb-2"
+        opacityVal="0.5"
+      />
+      <ForwardRef(H5) />
+    </div>
+    <hr />
+    <React.Fragment>
+      <div
+        className="d-flex flex-wrap flex-0"
+      >
+        <ForwardRef(Badge)
+          className="primary badge-sm me-2 mb-2"
+        >
+          Amazon Redshift
+        </ForwardRef(Badge)>
+      </div>
+      <hr />
+    </React.Fragment>
+    <ForwardRef(styles__PreferencesList)
+      className="d-flex flex-column flex-1"
+    >
+      
+      
+      
+      
+    </ForwardRef(styles__PreferencesList)>
+    <hr />
+    <div
+      className="flex-0"
+    >
+      <ForwardRef(P)
+        className="p14 mb-2"
+        opacityVal="0.5"
+      >
+        Formerly at
+      </ForwardRef(P)>
+      <ForwardRef(P)
+        className="p16 mb-0"
+      />
+    </div>
+  </ForwardRef(styles__TalentCard)>
+</React.Fragment>
+`;

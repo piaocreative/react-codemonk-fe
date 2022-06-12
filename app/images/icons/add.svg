@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Talents" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dev---My-profile-view-&amp;-edit" transform="translate(-1218.000000, -894.000000)" fill="#9A97A9">
+            <g id="icon/plus" transform="translate(1218.000000, 894.000000)">
+                <path d="M9.5,0 C10.0522847,-1.01453063e-16 10.5,0.44771525 10.5,1 L10.5,7.5 L17,7.5 C17.5522847,7.5 18,7.94771525 18,8.5 L18,9.5 C18,10.0522847 17.5522847,10.5 17,10.5 L10.5,10.5 L10.5,17 C10.5,17.5522847 10.0522847,18 9.5,18 L8.5,18 C7.94771525,18 7.5,17.5522847 7.5,17 L7.5,10.5 L1,10.5 C0.44771525,10.5 3.12564735e-16,10.0522847 2.4492936e-16,9.5 L3.061617e-16,8.5 C2.38526325e-16,7.94771525 0.44771525,7.5 1,7.5 L7.5,7.5 L7.5,1 C7.5,0.44771525 7.94771525,1.01453063e-16 8.5,0 L9.5,0 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

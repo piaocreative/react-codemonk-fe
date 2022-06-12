@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon/close</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.26952625,0.0583226301 L10,8.789 L18.7304738,0.0583226301 C18.9257359,-0.136939516 19.2423184,-0.136939516 19.4375805,0.0583226301 L19.9416774,0.562419468 C20.1369395,0.757681614 20.1369395,1.0742641 19.9416774,1.26952625 L11.211,10 L19.9416774,18.7304738 C20.1369395,18.9257359 20.1369395,19.2423184 19.9416774,19.4375805 L19.4375805,19.9416774 C19.2423184,20.1369395 18.9257359,20.1369395 18.7304738,19.9416774 L10,11.211 L1.26952625,19.9416774 C1.0742641,20.1369395 0.757681614,20.1369395 0.562419468,19.9416774 L0.05832263,19.4375805 C-0.136939516,19.2423184 -0.136939516,18.9257359 0.05832263,18.7304738 L8.789,10 L0.05832263,1.26952625 C-0.136939516,1.0742641 -0.136939516,0.757681614 0.05832263,0.562419468 L0.562419468,0.0583226301 C0.757681614,-0.136939516 1.0742641,-0.136939516 1.26952625,0.0583226301 Z" id="path-1"></path>
+    </defs>
+    <g id="Developer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Onboarding---Personal-Details---Image-crop-Modal" transform="translate(-1409.000000, -232.000000)">
+            <g id="Group-9" transform="translate(460.000000, 200.000000)">
+                <g id="icon/close" transform="translate(950.000000, 33.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

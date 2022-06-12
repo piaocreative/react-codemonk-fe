@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TalentHeader /> should render a div 1`] = `
+<div
+  class="header-style__HeaderNav-sc-196epht-5 bxBvEb"
+>
+  <nav
+    class="header-style__FixedNavbar-sc-196epht-6 ecmbTL navbar"
+  >
+    <div
+      class="header-style__NavbarContainer-sc-196epht-12 gqcBPh container-fluid"
+    >
+      <div
+        class="d-flex align-items-center navbar-expand-md"
+      >
+        <a
+          class="brand-style__NavBrand-kuuhq1-0 eghcJN"
+          href="/"
+          title="CodeMonk"
+        >
+          <img
+            alt="CodeMonk"
+            src="IMAGE_MOCK"
+          />
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+`;

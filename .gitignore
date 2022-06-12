@@ -1,0 +1,17 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+stats.json
+projectConfig.js
+gtmConfig.js
+.scannerwork
+.sonar
+deploy.sh
+invbatch.json
+report.json
+sonar-project.properties
+# Cruft
+.DS_Store
+npm-debug.log
+.idea

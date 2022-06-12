@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4C00FF" offset="0%"></stop>
+            <stop stop-color="#AA00FD" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="24" height="24" rx="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="toaster/error" transform="translate(-30.000000, -21.000000)">
+            <g id="icon/error" transform="translate(30.000000, 21.000000)">
+                <g id="shape/fill/circle" stroke-width="1">
+                    <g id="Group-Copy">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        <rect id="Rectangle" fill="#E23E47" mask="url(#mask-3)" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+                <path d="M15.3941125,6.90883118 L17.0911688,8.60588745 L13.6968312,11.9998312 L17.0911688,15.3941125 L15.3941125,17.0911688 L11.9998312,13.6968312 L8.60588745,17.0911688 L6.90883118,15.3941125 L10.3028312,11.9998312 L6.90883118,8.60588745 L8.60588745,6.90883118 L11.9998312,10.3028312 L15.3941125,6.90883118 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

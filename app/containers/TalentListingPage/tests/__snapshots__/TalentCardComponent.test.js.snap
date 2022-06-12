@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TalentCardComponent /> should render and match the snapshot 1`] = `
+<React.Fragment>
+  <ForwardRef(styles__TalentCard)
+    className="card-sm flex-1 d-flex flex-column"
+    target="_blank"
+    to="/client/talent-profile/5f046da2550f5f00078d7c97"
+  >
+    <div
+      className="d-flex flex-0 justify-content-between align-items-center"
+    >
+      <ForwardRef(styles__UserProfile)>
+        <ForwardRef(styles__UserProfileImg)>
+          <img
+            alt="user profile"
+            onError={[Function]}
+            src="https://s3-eu-west-1.amazonaws.com/s3-codemonk-static-content/development-proflie-pictures/5f046da2550f5f00078d7c96"
+          />
+        </ForwardRef(styles__UserProfileImg)>
+      </ForwardRef(styles__UserProfile)>
+      <Button
+        className="btn btn-sm btn-outline"
+        onClick={[Function]}
+      >
+        <span>
+          Hire
+        </span>
+      </Button>
+    </div>
+    <div
+      className="d-flex flex-0 mt-3"
+    >
+      <div
+        className="d-flex justify-content-between w-100 flex-column"
+      >
+        <ForwardRef(H3)>
+          harshad
+           
+          
+          .
+        </ForwardRef(H3)>
+        <ForwardRef(P)
+          className="p14 mb-0"
+          opacityVal="0.5"
+        >
+          ahmedabad
+          , 
+          Algeria
+           (
+          GMT-11:00
+          )
+        </ForwardRef(P)>
+      </div>
+    </div>
+    <hr />
+    <div
+      className="flex-0"
+    >
+      <ForwardRef(P)
+        className="p14 mb-2"
+        opacityVal="0.5"
+      >
+        Principal 
+      </ForwardRef(P)>
+      <ForwardRef(H5)>
+        Product (UI) designer
+      </ForwardRef(H5)>
+    </div>
+    <hr />
+    <React.Fragment>
+      <div
+        className="d-flex flex-wrap flex-0"
+      >
+        <ForwardRef(Badge)
+          className="primary badge-sm me-2 mb-2"
+        >
+          Amazon Redshift
+        </ForwardRef(Badge)>
+      </div>
+      <hr />
+    </React.Fragment>
+    <ForwardRef(styles__PreferencesList)
+      className="d-flex flex-column flex-1"
+    >
+      
+      
+      
+      <li>
+        <InlineSVG
+          cacheRequests={true}
+          src="IMAGE_MOCK"
+          uniquifyIDs={false}
+        />
+        <ForwardRef(P)
+          className="p16 mb-0 text-truncate d-block"
+          opacityVal="0.5"
+        >
+          
+        </ForwardRef(P)>
+      </li>
+    </ForwardRef(styles__PreferencesList)>
+    <hr />
+    <div
+      className="flex-0"
+    >
+      <ForwardRef(P)
+        className="p14 mb-2"
+        opacityVal="0.5"
+      >
+        Formerly at
+      </ForwardRef(P)>
+      <ForwardRef(P)
+        className="p16 mb-0"
+      >
+        Innovify
+      </ForwardRef(P)>
+    </div>
+  </ForwardRef(styles__TalentCard)>
+</React.Fragment>
+`;

@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> Component: FooterWrapper should render 1`] = `
+<div
+  className="footer-style__Footer-wiwfnq-1 hasqFC"
+>
+  <p
+    className="P-tiusvc-0 eZYXtL p16"
+  >
+    <span>
+      © CodeMonk 2022 - All rights reserved.
+    </span>
+  </p>
+  <ul
+    className="footer-links"
+  >
+    <li>
+      <a
+        href="https://www.codemonk.ai/terms-and-conditions/"
+        target="_blank"
+      >
+        <span>
+          Terms
+        </span>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.codemonk.ai/privacy-policy/"
+        target="_blank"
+      >
+        <span>
+          Privacy
+        </span>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.codemonk.ai/cookie-policy/"
+        target="_blank"
+      >
+        <span>
+          Cookie
+        </span>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.codemonk.ai/acceptable-use-policy/"
+        target="_blank"
+      >
+        <span>
+          Acceptable
+        </span>
+      </a>
+    </li>
+  </ul>
+  <ul
+    className="footer-style__SocialLinks-wiwfnq-0 iigCyK"
+  >
+    <li>
+      <a
+        href="https://www.linkedin.com/company/codemonk-ai/"
+        target="_blank"
+      />
+    </li>
+    <li>
+      <a
+        href="https://dribbble.com/CodeMonk_AI/about/"
+        target="_blank"
+      />
+    </li>
+    <li>
+      <a
+        href="https://www.facebook.com/codemonk.fow/"
+        target="_blank"
+      />
+    </li>
+  </ul>
+</div>
+`;

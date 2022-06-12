@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4C00FF" offset="0%"></stop>
+            <stop stop-color="#AA00FD" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="24" height="24" rx="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="toaster/success" transform="translate(-30.000000, -21.000000)">
+            <g id="icon/circle-tick" transform="translate(30.000000, 21.000000)">
+                <g id="shape/fill/circle" stroke-width="1">
+                    <g id="Group-Copy">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        <rect id="Rectangle" fill="#26A73D" mask="url(#mask-3)" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+                <g id="icon/check" transform="translate(6.000000, 7.200000)" fill="#FFFFFF">
+                    <polygon id="Path" points="0 5.33972153 1.64895583 3.64394165 4.19631063 6.19355663 10.322135 0 12 1.74185583 4.19631063 9.6"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Agency" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Agency-Onboarding---Agency" transform="translate(-430.000000, -2071.000000)">
+            <g id="Group-5" transform="translate(430.000000, 2071.000000)">
+                <g id="Group-3" fill="#C6C4CF">
+                    <circle id="Oval" cx="75" cy="75" r="75"></circle>
+                </g>
+                <path d="M95,50 C97.7614237,50 100,52.2385763 100,55 L100,95 C100,97.7614237 97.7614237,100 95,100 L55,100 C52.2385763,100 50,97.7614237 50,95 L50,55 C50,52.2385763 52.2385763,50 55,50 L95,50 Z M80,67 L69.69,84.448 L65,78 L57,89 L93,89 L80,67 Z M66,60 C63.2385763,60 61,62.2385763 61,65 C61,67.7614237 63.2385763,70 66,70 C68.7614237,70 71,67.7614237 71,65 C71,62.2385763 68.7614237,60 66,60 Z" id="Combined-Shape" fill="#F3F1F9"></path>
+            </g>
+        </g>
+    </g>
+</svg>

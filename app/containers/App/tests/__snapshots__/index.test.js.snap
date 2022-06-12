@@ -1,0 +1,1063 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<div>
+  <HelmetWrapper
+    defaultTitle="CodeMonk"
+    defer={true}
+    encodeSpecialCharacters={true}
+    titleTemplate="%s - CodeMonk"
+  >
+    <meta
+      content="CodeMonk"
+      name="description"
+    />
+  </HelmetWrapper>
+  <ToastContainer
+    autoClose={3000}
+    className="Toast"
+    closeButton={[Function]}
+    closeOnClick={true}
+    draggable={false}
+    draggablePercent={80}
+    hideProgressBar={true}
+    newestOnTop={false}
+    pauseOnFocusLoss={true}
+    pauseOnHover={false}
+    position="top-center"
+    role="alert"
+    rtl={false}
+    transition={[Function]}
+    type="default"
+  />
+  <Switch>
+    <Route
+      component={[Function]}
+      path="/feature-job-widget"
+    />
+    <Route
+      component={[Function]}
+      path="/feature-developers-widget"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/signup"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/login"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/forgot-password"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/verifyemail"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/user/profile-view/:talentID"
+      redirectToPage={true}
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/talent/login"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/talent/signup/:talentToken"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/talent/signup"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/talent/verifyemail"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/talent/forgot-password"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/talent/password-reset-success"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/talent/verification"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/talent/verification-mail/:emailID"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/talent/reset-password/:resetToken"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/talent/referral/:userId"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/talent/registration-type"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/talent/create-profile"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/talent/upload-cv"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/talent/about-you"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/talent/projects"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/talent/preferences"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/talent/experience"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/talent/qualifications"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/talent/salary-billing"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/talent/document-upload"
+    />
+    <SignInLayout
+      component={[Function]}
+      path="/agency/login"
+    />
+    <SignInLayout
+      component={[Function]}
+      path="/agency/signup/:talentToken"
+    />
+    <SignInLayout
+      component={[Function]}
+      path="/agency/signup"
+    />
+    <SignInLayout
+      component={[Function]}
+      path="/agency/verifyemail"
+    />
+    <SignInLayout
+      component={[Function]}
+      path="/agency/forgot-password"
+    />
+    <SignInLayout
+      component={[Function]}
+      path="/agency/password-reset-success"
+    />
+    <SignInLayout
+      component={[Function]}
+      path="/agency/verification"
+    />
+    <SignInLayout
+      component={[Function]}
+      path="/agency/verification-mail/:emailID"
+    />
+    <SignInLayout
+      component={[Function]}
+      path="/agency/reset-password/:resetToken"
+    />
+    <SignInLayout
+      component={[Function]}
+      path="/agency/referral/:userId"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/agency/registration-type"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/agency/create-profile"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/agency/add-talents"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/agency/agency-certificate"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/agency/payout-details"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/agency/add-directors-shareholders"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/agency/documents"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/client/login"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/client/signup"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/client/verification"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/client/forgot-password"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/client/verifyemail"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/client/reset-password/:resetToken"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/client/password-reset-success"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/client/about-you"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/client/about-company"
+    />
+    <AuthLayout
+      component={[Function]}
+      path="/client/company-location"
+    />
+    <SignInLayoutV2
+      component={[Function]}
+      path="/admin/login"
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          true,
+          false,
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/talent",
+          "/talent/",
+          "/talent/dashboard",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/talent/my-profile",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/talent/account-settings",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/talent/timesheets",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/talent/job-briefs",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/talent/brief-detail/:briefID",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/talent/knowledge-base",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/talent/career-paths",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/talent/learning-development",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/talent/perks",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/talent/wellbeing",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/talent/invoices",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/talent/my-projects",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/talent/project-detail/:projectID",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          true,
+          false,
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/agency",
+          "/agency/",
+          "/agency/dashboard",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/agency/agency-profile",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/agency/agency-account-settings",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/agency/quotes",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/agency/quote-detail/:quoteID",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/agency/agency-projects",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/agency/agency-project-detail/:projectID",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/agency/timesheets",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/agency/invoices",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/agency/agency-statements",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/agency/my-team",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/agency/agency-planning",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/agency/talent-profile/:talentID",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          true,
+          false,
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/client",
+          "/client/",
+          "/client/dashboard",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/client/start-project",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/client/request-received",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/client/talent-listing",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/client/my-profile",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/client/talent-profile/:talentID",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/client/account-settings",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/client/job-briefs",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/client/brief-detail/:briefID",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/client/projects",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/client/talents",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/client/billing",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/client/contracts",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/client/payments",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/client/project-detail/:projectID",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/client/timesheets",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          true,
+          false,
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin",
+          "/admin/",
+          "/admin/dashboard",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin/projects",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin/job-briefs",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin/interviews",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin/quotes",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin/talents",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin/timesheets",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin/clients",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin/agencies",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin/project-detail/:projectID",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin/client-detail/:clientID",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin/agency-detail/:agencyID",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin/interview-detail/:interviewID",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin/talent-profile/:talentID",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin/brief-detail/:briefID",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin/quote-detail/:quoteID",
+        ]
+      }
+    />
+    <PrivateLayout
+      component={[Function]}
+      exact={
+        Array [
+          false,
+        ]
+      }
+      path={
+        Array [
+          "/admin/referrals",
+        ]
+      }
+    />
+    <SignInLayout
+      component={[Function]}
+      path=""
+    />
+  </Switch>
+  <GlobalStyleComponent />
+</div>
+`;

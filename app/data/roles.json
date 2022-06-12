@@ -1,0 +1,46 @@
+[
+  {
+    "value": "Product Manager",
+    "name": "Product Manager"
+  },
+  {
+    "value": "UX Manager",
+    "name": "UX Manager"
+  },
+  {
+    "value": "Product (UI) designer",
+    "name": "Product (UI) designer"
+  },
+  {
+    "value": "Data Scientist",
+    "name": "Data Scientist"
+  },
+  {
+    "value": "Developer",
+    "name": "Developer"
+  },
+  {
+    "value": "Quality Analyst",
+    "name": "Quality Analyst"
+  },
+  {
+    "value": "DevOps engineer",
+    "name": "DevOps engineer"
+  },
+  {
+    "value": "Solution Architect",
+    "name": "Solution Architect"
+  },
+  {
+    "value": "Database Architect",
+    "name": "Database Architect"
+  },
+  {
+    "value": "Delivery Manager",
+    "name": "Delivery Manager"
+  },
+  {
+    "value": "Project Manager",
+    "name": "Project Manager"
+  }
+]

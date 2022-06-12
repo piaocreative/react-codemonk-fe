@@ -1,0 +1,1611 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainForm /> should render and match the snapshot 1`] = `
+<ForwardRef(payment-styles__PaymentPageWrapper)>
+  <ForwardRef(FormWrapper)>
+    <div
+      className="d-flex align-items-center justify-content-between"
+    >
+      <ForwardRef(H1)
+        className="text-start mb-0"
+      >
+        <FormattedMessage
+          defaultMessage="Billing details"
+          id="CodeMonk.containers.AccountSettingsPage.headingBilling"
+          values={Object {}}
+        />
+      </ForwardRef(H1)>
+      <ForwardRef(styles__EditLink)
+        color="link"
+        onClick={[Function]}
+      >
+        <small
+          className="opacity-100"
+        >
+          <FormattedMessage
+            defaultMessage="Edit"
+            id="CodeMonk.containers.containerMessage.headingEditCTA"
+            values={Object {}}
+          />
+        </small>
+      </ForwardRef(styles__EditLink)>
+    </div>
+    <form
+      onSubmit={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              [Function],
+            ],
+            Array [
+              [Function],
+            ],
+            Array [
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <ForwardRef(H4)>
+        <FormattedMessage
+          defaultMessage="Proof of ID and Proof of address"
+          id="CodeMonk.components.PaymentAndBilling.labelProof"
+          values={Object {}}
+        />
+      </ForwardRef(H4)>
+      <PersonalIdComponent
+        addressProof=""
+        billingType=""
+        companyDetails={Object {}}
+        dispatch={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                Object {
+                  "payload": "",
+                  "type": "PAYMENT_FORM_CHANGE_BILLING_TYPE",
+                },
+              ],
+              Array [
+                Object {
+                  "payload": Object {
+                    "companyAddressLineOne": "",
+                    "companyAddressLineTwo": "",
+                    "companyCity": "",
+                    "companyCountry": "",
+                    "companyEmployerInsuranceValue": "",
+                    "companyName": "",
+                    "companyPincode": "",
+                    "companyProfessionInsuranceValue": "",
+                    "companyPublicInsurancesValue": "",
+                    "companyregisteredNumber": "",
+                    "vatNumber": "",
+                    "website": "",
+                  },
+                  "type": "PAYMENT_FORM_CHANGE_COMPANY_DETAILS",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "billingType",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyName",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyregisteredNumber",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyPincode",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyCity",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyCountry",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyAddressLineOne",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyAddressLineTwo",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "website",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "vatNumber",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyProfessionInsuranceValue",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyPublicInsurancesValue",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyEmployerInsuranceValue",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "idProof",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "addressProof",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyIncorporationCertificateUrl",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyVatRegistrationCertificateUrl",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyInsuranceDocumentUrl",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "payload": "",
+                  "type": "PAYMENT_FORM_CHANGE_BILLING_TYPE",
+                },
+              ],
+              Array [
+                Object {
+                  "payload": Object {
+                    "companyAddressLineOne": "",
+                    "companyAddressLineTwo": "",
+                    "companyCity": "",
+                    "companyCountry": "",
+                    "companyEmployerInsuranceValue": "",
+                    "companyName": "",
+                    "companyPincode": "",
+                    "companyProfessionInsuranceValue": "",
+                    "companyPublicInsurancesValue": "",
+                    "companyregisteredNumber": "",
+                    "vatNumber": "",
+                    "website": "",
+                  },
+                  "type": "PAYMENT_FORM_CHANGE_COMPANY_DETAILS",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "billingType",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyName",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyregisteredNumber",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyPincode",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyCity",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyCountry",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyAddressLineOne",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyAddressLineTwo",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "website",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "vatNumber",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyProfessionInsuranceValue",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyPublicInsurancesValue",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyEmployerInsuranceValue",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "idProof",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "addressProof",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyIncorporationCertificateUrl",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyVatRegistrationCertificateUrl",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+              Array [
+                Object {
+                  "meta": Object {
+                    "field": "companyInsuranceDocumentUrl",
+                    "form": "paymentAndBilling",
+                    "persistentSubmitErrors": undefined,
+                    "touch": undefined,
+                  },
+                  "payload": "",
+                  "type": "@@redux-form/CHANGE",
+                },
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        docError={
+          Object {
+            "addressProof": "",
+            "companyIncorporationCertificateUrl": "",
+            "companyInsuranceDocumentUrl": "",
+            "companyVatRegistrationCertificateUrl": "",
+            "idProof": "",
+          }
+        }
+        editFlag={false}
+        fileUploading={
+          Object {
+            "addressProof": "",
+            "companyIncorporationCertificateUrl": "",
+            "companyInsuranceDocumentUrl": "",
+            "companyVatRegistrationCertificateUrl": "",
+            "idProof": "",
+          }
+        }
+        formKey="paymentAndBilling"
+        handleSubmit={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                [Function],
+              ],
+              Array [
+                [Function],
+              ],
+              Array [
+                [Function],
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        history={
+          Object {
+            "push": [MockFunction],
+            "replace": [MockFunction],
+          }
+        }
+        idProof=""
+        invalid={false}
+        loading={false}
+        location={Object {}}
+        onChangeBillingType={[MockFunction]}
+        onChangeCompanyDetails={[MockFunction]}
+        onDeleteFile={[Function]}
+        onFileChange={[Function]}
+        onSubmitBilling={[MockFunction]}
+        responseError={false}
+        responseSuccess={false}
+        store={
+          Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          }
+        }
+      />
+      <ForwardRef(H4)>
+        <FormattedMessage
+          defaultMessage="Billing type"
+          id="CodeMonk.components.PaymentAndBilling.labelBilling"
+          values={Object {}}
+        />
+      </ForwardRef(H4)>
+      <FormGroup
+        tag="div"
+      >
+        <ForwardRef
+          component={[Function]}
+          data={
+            Array [
+              Object {
+                "Component": null,
+                "className": "custom-radio",
+                "condition": false,
+                "label": "Freelancer",
+                "selectedRadioClassName": "custom-radio-focus",
+                "value": "freelancer",
+              },
+              Object {
+                "Component": <CompanyDetails
+                  billingType=""
+                  companyDetails={Object {}}
+                  companyIncorporationCertificateUrl=""
+                  companyInsuranceDocumentUrl=""
+                  companyVatRegistrationCertificateUrl=""
+                  dispatch={
+                    [MockFunction] {
+                      "calls": Array [
+                        Array [
+                          Object {
+                            "payload": "",
+                            "type": "PAYMENT_FORM_CHANGE_BILLING_TYPE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "payload": Object {
+                              "companyAddressLineOne": "",
+                              "companyAddressLineTwo": "",
+                              "companyCity": "",
+                              "companyCountry": "",
+                              "companyEmployerInsuranceValue": "",
+                              "companyName": "",
+                              "companyPincode": "",
+                              "companyProfessionInsuranceValue": "",
+                              "companyPublicInsurancesValue": "",
+                              "companyregisteredNumber": "",
+                              "vatNumber": "",
+                              "website": "",
+                            },
+                            "type": "PAYMENT_FORM_CHANGE_COMPANY_DETAILS",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "billingType",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyName",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyregisteredNumber",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyPincode",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyCity",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyCountry",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyAddressLineOne",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyAddressLineTwo",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "website",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "vatNumber",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyProfessionInsuranceValue",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyPublicInsurancesValue",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyEmployerInsuranceValue",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "idProof",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "addressProof",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyIncorporationCertificateUrl",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyVatRegistrationCertificateUrl",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyInsuranceDocumentUrl",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "payload": "",
+                            "type": "PAYMENT_FORM_CHANGE_BILLING_TYPE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "payload": Object {
+                              "companyAddressLineOne": "",
+                              "companyAddressLineTwo": "",
+                              "companyCity": "",
+                              "companyCountry": "",
+                              "companyEmployerInsuranceValue": "",
+                              "companyName": "",
+                              "companyPincode": "",
+                              "companyProfessionInsuranceValue": "",
+                              "companyPublicInsurancesValue": "",
+                              "companyregisteredNumber": "",
+                              "vatNumber": "",
+                              "website": "",
+                            },
+                            "type": "PAYMENT_FORM_CHANGE_COMPANY_DETAILS",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "billingType",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyName",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyregisteredNumber",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyPincode",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyCity",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyCountry",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyAddressLineOne",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyAddressLineTwo",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "website",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "vatNumber",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyProfessionInsuranceValue",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyPublicInsurancesValue",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyEmployerInsuranceValue",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "idProof",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "addressProof",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyIncorporationCertificateUrl",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyVatRegistrationCertificateUrl",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                        Array [
+                          Object {
+                            "meta": Object {
+                              "field": "companyInsuranceDocumentUrl",
+                              "form": "paymentAndBilling",
+                              "persistentSubmitErrors": undefined,
+                              "touch": undefined,
+                            },
+                            "payload": "",
+                            "type": "@@redux-form/CHANGE",
+                          },
+                        ],
+                      ],
+                      "results": Array [
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                      ],
+                    }
+                  }
+                  docError={
+                    Object {
+                      "addressProof": "",
+                      "companyIncorporationCertificateUrl": "",
+                      "companyInsuranceDocumentUrl": "",
+                      "companyVatRegistrationCertificateUrl": "",
+                      "idProof": "",
+                    }
+                  }
+                  editFlag={false}
+                  fileUploading={
+                    Object {
+                      "addressProof": "",
+                      "companyIncorporationCertificateUrl": "",
+                      "companyInsuranceDocumentUrl": "",
+                      "companyVatRegistrationCertificateUrl": "",
+                      "idProof": "",
+                    }
+                  }
+                  handleChangeCompanyDetails={[Function]}
+                  handleSubmit={
+                    [MockFunction] {
+                      "calls": Array [
+                        Array [
+                          [Function],
+                        ],
+                        Array [
+                          [Function],
+                        ],
+                        Array [
+                          [Function],
+                        ],
+                      ],
+                      "results": Array [
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                      ],
+                    }
+                  }
+                  history={
+                    Object {
+                      "push": [MockFunction],
+                      "replace": [MockFunction],
+                    }
+                  }
+                  invalid={false}
+                  loading={false}
+                  location={Object {}}
+                  onChangeBillingType={[MockFunction]}
+                  onChangeCompanyDetails={[MockFunction]}
+                  onDeleteFile={[Function]}
+                  onFileChange={[Function]}
+                  onSubmitBilling={[MockFunction]}
+                  responseError={false}
+                  responseSuccess={false}
+                  store={
+                    Object {
+                      "clearActions": [Function],
+                      "dispatch": [Function],
+                      "getActions": [Function],
+                      "getState": [Function],
+                      "replaceReducer": [Function],
+                      "subscribe": [Function],
+                    }
+                  }
+                />,
+                "className": "custom-radio",
+                "condition": false,
+                "label": "Company",
+                "selectedRadioClassName": "custom-radio-focus",
+                "value": "company",
+              },
+            ]
+          }
+          editFlag={true}
+          groupName="billing"
+          name="billingType"
+          onChangeRadio={[Function]}
+          selectedRadio=""
+          validate={
+            Array [
+              [Function],
+            ]
+          }
+        />
+      </FormGroup>
+      <hr
+        className="mt-5"
+      />
+      <React.Fragment>
+        <div
+          className="d-flex justify-content-md-end align-items-center flex-wrap justify-content-between"
+        >
+          <ForwardRef(LinkButtonMod__ButtonMod)
+            className="m-link"
+            color="link"
+            disabled={true}
+            onClick={[Function]}
+          >
+            <FormattedMessage
+              defaultMessage="Cancel"
+              id="CodeMonk.containers.containerMessage.btnCancel"
+              values={Object {}}
+            />
+          </ForwardRef(LinkButtonMod__ButtonMod)>
+          <Button
+            className=" btn-primary mt-0 me-0"
+            disabled={true}
+          >
+            <FormattedMessage
+              defaultMessage="Save"
+              id="CodeMonk.containers.containerMessage.btnSave"
+              values={Object {}}
+            />
+          </Button>
+        </div>
+      </React.Fragment>
+    </form>
+  </ForwardRef(FormWrapper)>
+</ForwardRef(payment-styles__PaymentPageWrapper)>
+`;

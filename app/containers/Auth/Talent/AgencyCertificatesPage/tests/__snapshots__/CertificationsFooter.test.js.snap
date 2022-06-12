@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CertificationsFooter /> should render and match the snapshot 1`] = `
+<div
+  className="d-flex justify-content-md-end align-items-center flex-wrap justify-content-between"
+>
+  <ForwardRef(LinkButtonMod__ButtonMod)
+    className="left-arrow link me-auto"
+    color="link"
+    onClick={[Function]}
+  >
+    <FormattedMessage
+      defaultMessage="Back"
+      id="CodeMonk.components.agencyCertificateForm.btnBack"
+      values={Object {}}
+    />
+  </ForwardRef(LinkButtonMod__ButtonMod)>
+  <ForwardRef(LinkButtonMod__ButtonMod)
+    color="link"
+    onClick={[Function]}
+  >
+    <FormattedMessage
+      defaultMessage="Save for Later"
+      id="CodeMonk.components.agencyCertificateForm.btnSaveLater"
+      values={Object {}}
+    />
+  </ForwardRef(LinkButtonMod__ButtonMod)>
+  <Button
+    className=" btn-primary btn-submit"
+    disabled={false}
+  >
+    Continue
+  </Button>
+</div>
+`;

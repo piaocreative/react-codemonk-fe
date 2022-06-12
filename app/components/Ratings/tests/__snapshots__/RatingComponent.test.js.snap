@@ -1,0 +1,408 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RatingComponent /> should render and match the snapshot 1`] = `
+<div
+  className="rating-styles__RatingWrapper-yq5jrq-0 wKcYD"
+>
+  <div
+    className="rating-item"
+  >
+    <span
+      className="Badge-n20gz6-0 euqJll title badge-md secondary"
+    />
+    <div
+      className="ratings"
+    >
+      <div
+        className="rating-bars"
+      >
+        <span
+          onMouseLeave={[Function]}
+          style={
+            Object {
+              "direction": "ltr",
+              "display": "inline-block",
+            }
+          }
+        >
+          <span
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+                "display": "inline-block",
+                "position": "relative",
+              }
+            }
+          >
+            <span
+              style={Object {}}
+            >
+              <div
+                className="rating-styles__EmptyIcon-yq5jrq-1 jJTvVo"
+              />
+            </span>
+            <span
+              style={
+                Object {
+                  "display": "inline-block",
+                  "left": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "0%",
+                }
+              }
+            >
+              <div
+                className="rating-styles__FullIcon-yq5jrq-2 folHcU"
+              />
+            </span>
+          </span>
+          <span
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+                "display": "inline-block",
+                "position": "relative",
+              }
+            }
+          >
+            <span
+              style={Object {}}
+            >
+              <div
+                className="rating-styles__EmptyIcon-yq5jrq-1 jJTvVo"
+              />
+            </span>
+            <span
+              style={
+                Object {
+                  "display": "inline-block",
+                  "left": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "0%",
+                }
+              }
+            >
+              <div
+                className="rating-styles__FullIcon-yq5jrq-2 folHcU"
+              />
+            </span>
+          </span>
+          <span
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+                "display": "inline-block",
+                "position": "relative",
+              }
+            }
+          >
+            <span
+              style={Object {}}
+            >
+              <div
+                className="rating-styles__EmptyIcon-yq5jrq-1 jJTvVo"
+              />
+            </span>
+            <span
+              style={
+                Object {
+                  "display": "inline-block",
+                  "left": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "0%",
+                }
+              }
+            >
+              <div
+                className="rating-styles__FullIcon-yq5jrq-2 folHcU"
+              />
+            </span>
+          </span>
+          <span
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+                "display": "inline-block",
+                "position": "relative",
+              }
+            }
+          >
+            <span
+              style={Object {}}
+            >
+              <div
+                className="rating-styles__EmptyIcon-yq5jrq-1 jJTvVo"
+              />
+            </span>
+            <span
+              style={
+                Object {
+                  "display": "inline-block",
+                  "left": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "0%",
+                }
+              }
+            >
+              <div
+                className="rating-styles__FullIcon-yq5jrq-2 folHcU"
+              />
+            </span>
+          </span>
+          <span
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+                "display": "inline-block",
+                "position": "relative",
+              }
+            }
+          >
+            <span
+              style={Object {}}
+            >
+              <div
+                className="rating-styles__EmptyIcon-yq5jrq-1 jJTvVo"
+              />
+            </span>
+            <span
+              style={
+                Object {
+                  "display": "inline-block",
+                  "left": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "0%",
+                }
+              }
+            >
+              <div
+                className="rating-styles__FullIcon-yq5jrq-2 folHcU"
+              />
+            </span>
+          </span>
+          <span
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+                "display": "inline-block",
+                "position": "relative",
+              }
+            }
+          >
+            <span
+              style={Object {}}
+            >
+              <div
+                className="rating-styles__EmptyIcon-yq5jrq-1 jJTvVo"
+              />
+            </span>
+            <span
+              style={
+                Object {
+                  "display": "inline-block",
+                  "left": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "0%",
+                }
+              }
+            >
+              <div
+                className="rating-styles__FullIcon-yq5jrq-2 folHcU"
+              />
+            </span>
+          </span>
+          <span
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+                "display": "inline-block",
+                "position": "relative",
+              }
+            }
+          >
+            <span
+              style={Object {}}
+            >
+              <div
+                className="rating-styles__EmptyIcon-yq5jrq-1 jJTvVo"
+              />
+            </span>
+            <span
+              style={
+                Object {
+                  "display": "inline-block",
+                  "left": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "0%",
+                }
+              }
+            >
+              <div
+                className="rating-styles__FullIcon-yq5jrq-2 folHcU"
+              />
+            </span>
+          </span>
+          <span
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+                "display": "inline-block",
+                "position": "relative",
+              }
+            }
+          >
+            <span
+              style={Object {}}
+            >
+              <div
+                className="rating-styles__EmptyIcon-yq5jrq-1 jJTvVo"
+              />
+            </span>
+            <span
+              style={
+                Object {
+                  "display": "inline-block",
+                  "left": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "0%",
+                }
+              }
+            >
+              <div
+                className="rating-styles__FullIcon-yq5jrq-2 folHcU"
+              />
+            </span>
+          </span>
+          <span
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+                "display": "inline-block",
+                "position": "relative",
+              }
+            }
+          >
+            <span
+              style={Object {}}
+            >
+              <div
+                className="rating-styles__EmptyIcon-yq5jrq-1 jJTvVo"
+              />
+            </span>
+            <span
+              style={
+                Object {
+                  "display": "inline-block",
+                  "left": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "0%",
+                }
+              }
+            >
+              <div
+                className="rating-styles__FullIcon-yq5jrq-2 folHcU"
+              />
+            </span>
+          </span>
+          <span
+            onClick={[Function]}
+            onMouseMove={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+                "display": "inline-block",
+                "position": "relative",
+              }
+            }
+          >
+            <span
+              style={Object {}}
+            >
+              <div
+                className="rating-styles__EmptyIcon-yq5jrq-1 jJTvVo"
+              />
+            </span>
+            <span
+              style={
+                Object {
+                  "display": "inline-block",
+                  "left": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "0%",
+                }
+              }
+            >
+              <div
+                className="rating-styles__FullIcon-yq5jrq-2 folHcU"
+              />
+            </span>
+          </span>
+        </span>
+      </div>
+      <p
+        className="P-tiusvc-0 hxrvHG p16 rating-label m-0"
+      >
+        1-10
+      </p>
+    </div>
+  </div>
+</div>
+`;

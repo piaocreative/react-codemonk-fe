@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="button/secondary/desktop/small+icon" transform="translate(-30.000000, -14.000000)" fill="#4C00FF">
+            <g id="icon/plus" transform="translate(30.000000, 14.000000)">
+                <path d="M6,0 C6.55228475,-1.01453063e-16 7,0.44771525 7,1 L7,5 L11,5 C11.5522847,5 12,5.44771525 12,6 C12,6.55228475 11.5522847,7 11,7 L7,7 L7,11 C7,11.5522847 6.55228475,12 6,12 C5.44771525,12 5,11.5522847 5,11 L5,7 L1,7 C0.44771525,7 2.51332395e-16,6.55228475 1.8369702e-16,6 C1.16061645e-16,5.44771525 0.44771525,5 1,5 L5,5 L5,1 C5,0.44771525 5.44771525,1.01453063e-16 6,0 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClientHeader /> should render a div 1`] = `
+<div
+  class="header-style__HeaderNav-sc-196epht-4 fqsaJt"
+>
+  <nav
+    class="header-style__FixedNavbar-sc-196epht-5 iUzMck client-header navbar"
+  >
+    <div
+      class="header-style__NavbarContainer-sc-196epht-11 bieUll container-fluid"
+    >
+      <div
+        class="d-flex align-items-center navbar-expand-md"
+      >
+        <a
+          class="brand-style__NavBrand-kuuhq1-0 jDEDXe"
+          href="/client"
+          title="CodeMonk"
+        >
+          <img
+            alt="CodeMonk"
+            class="d-none d-md-block"
+            src="IMAGE_MOCK"
+          />
+          <img
+            alt="CodeMonk"
+            class="d-block d-md-none"
+            src="IMAGE_MOCK"
+          />
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+`;

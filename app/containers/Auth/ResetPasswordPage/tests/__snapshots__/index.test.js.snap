@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainForm /> should render and match the snapshot 1`] = `
+<React.Fragment>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Reset Password
+    </title>
+    <meta
+      content="Reset Password"
+      name="description"
+    />
+  </HelmetWrapper>
+  
+</React.Fragment>
+`;

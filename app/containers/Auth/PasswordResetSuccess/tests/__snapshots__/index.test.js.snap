@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainForm /> should render and match the snapshot 1`] = `
+<React.Fragment>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Password Changed!
+    </title>
+    <meta
+      content="Password Changed!"
+      name="description"
+    />
+  </HelmetWrapper>
+  <ForwardRef(ContainerMod)
+    className="w-auto p-0"
+  >
+    <ForwardRef(Card)
+      className="p-0 bg-transparent"
+    >
+      <ForwardRef(OnboardingForm)>
+        <ForwardRef(OnboardingForm__OnBoardingFormBody)>
+          <React.Fragment>
+            <ForwardRef(styles__TickIcon)
+              className="mb-4 mb-md-5 w-1"
+              src="IMAGE_MOCK"
+            />
+            <ForwardRef(H1)
+              className="mb-3"
+            >
+              <FormattedMessage
+                defaultMessage="Password Changed!"
+                id="CodeMonk.components.PasswordResetSuccess.headingPasswordChanged"
+                values={Object {}}
+              />
+            </ForwardRef(H1)>
+            <ForwardRef(P)
+              className="p16"
+              opacityVal="0.5"
+            >
+              <FormattedMessage
+                defaultMessage="Your password has successfully been changed! Login to your account."
+                id="CodeMonk.components.PasswordResetSuccess.textIntro"
+                values={Object {}}
+              />
+            </ForwardRef(P)>
+          </React.Fragment>
+          <ForwardRef(A__LinkMod)
+            className="btn-primary w-100 mt-3"
+            to="/login"
+          >
+            <FormattedMessage
+              defaultMessage="Login"
+              id="CodeMonk.components.PasswordResetSuccess.signInButtonText"
+              values={Object {}}
+            />
+          </ForwardRef(A__LinkMod)>
+        </ForwardRef(OnboardingForm__OnBoardingFormBody)>
+      </ForwardRef(OnboardingForm)>
+    </ForwardRef(Card)>
+  </ForwardRef(ContainerMod)>
+</React.Fragment>
+`;
